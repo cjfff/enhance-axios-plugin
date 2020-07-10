@@ -1,4 +1,4 @@
-import enhanceAxios, { AxiosEnhanceInstance } from "../src/enhance-axios-plugin"
+import { enhanceAxios } from "../src/index"
 import axios from 'axios';
 import * as Koa from 'koa'
 import * as Router from 'koa-router'

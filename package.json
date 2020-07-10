@@ -2,7 +2,11 @@
   "name": "enhance-axios-plugin",
   "version": "1.0.0",
   "description": "enhance axios",
-  "keywords": ["enhance", "$get $post $delete $put", "deconstruction"],
+  "keywords": [
+    "enhance",
+    "$get $post $delete $put",
+    "deconstruction"
+  ],
   "main": "dist/enhance-axios-plugin.umd.js",
   "module": "dist/enhance-axios-plugin.es5.js",
   "typings": "dist/types/enhance-axios-plugin.d.ts",
