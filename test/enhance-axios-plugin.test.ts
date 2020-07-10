@@ -1,4 +1,4 @@
-import { enhanceAxios } from "../src/index"
+import { enhanceAxiosPlugin } from "../src/index"
 import axios from 'axios';
 import * as Koa from 'koa'
 import * as Router from 'koa-router'
@@ -34,7 +34,7 @@ app
 
 app.listen(9999);
 
-const instance = enhanceAxios(axios.create())
+const instance = enhanceAxiosPlugin(axios.create())
 
 test('axios.$get', async () => {
   const data = await instance.$get(url)
